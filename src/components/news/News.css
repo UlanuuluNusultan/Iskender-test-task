@@ -1,0 +1,70 @@
+.box {
+  width: 391.69px;
+  height: 181.48px;
+  border-radius: 12px;
+  background: #f0f9ff;
+  position: relative;
+}
+.slider-container {
+  width: 100%;
+}
+.ron {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 12px;
+}
+.ru {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 12px;
+}
+.flow {
+  position: absolute;
+  right: 22px;
+  bottom: 36px;
+}
+.cont {
+  display: flex;
+}
+.news {
+  margin: 62px 0 18px 0;
+  color: #000;
+  font-family: Gilroy;
+  font-size: 25px;
+  font-weight: 600;
+}
+.info {
+  margin: 32px 0 0 22px;
+}
+.podrobnee {
+  border-radius: 11.066px;
+  background: var(--main-color, #0063a9);
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 11.247px;
+  font-weight: 400;
+  border: none;
+  padding: 8.034px 24.101px;
+  margin-top: 22px;
+}
+.NewsContainer {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.news-left {
+  position: absolute;
+  left: -50px;
+  top: 72px;
+  cursor: pointer;
+}
+.news-right {
+  position: absolute;
+  right: -50px;
+  top: 72px;
+  cursor: pointer;
+}

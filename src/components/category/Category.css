@@ -1,0 +1,40 @@
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cart {
+  width: 165px;
+  height: 170px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 50px 0 18px 0;
+}
+.description {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.tovar {
+  color: var(--grey-2, #727272);
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

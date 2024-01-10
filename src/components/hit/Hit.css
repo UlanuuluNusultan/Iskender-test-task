@@ -1,0 +1,119 @@
+.hitt {
+  margin: 55px 0 30px 0;
+}
+.slider-container {
+  position: relative;
+}
+.left {
+  position: absolute;
+  left: -50px;
+  top: 133px;
+  cursor: pointer;
+}
+.right {
+  position: absolute;
+  right: -50px;
+  top: 133px;
+  cursor: pointer;
+}
+.BestsellerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8.291px;
+  border: 1.083px solid #fff;
+}
+.li {
+  width: 190px;
+  height: 341px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  background: #fff;
+  padding: 8px;
+  font-family: Gilroy;
+}
+.p {
+  color: #1a1919;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.img {
+  border-radius: 16px;
+  margin: 0 0 10px 0;
+}
+.Amount {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 24px;
+}
+.Status {
+  color: #82cf6f;
+  font-family: Gilroy;
+  font-size: 12.437px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Quantity {
+  color: #3286c2;
+  font-family: Gilroy;
+  font-size: 12.437px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.LinkToCatolog {
+  color: #3186c3;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: end;
+}
+.Buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bu {
+  width: 33px;
+  height: 33px;
+  border-radius: 82.912px;
+  background: #f5f5f5;
+  border: none;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Добавьте ваши стили в существующий файл Hit.css или создайте отдельный файл */
+
+.slide-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 26px;
+  background-color: var(--main-color, #0063a9);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  width: 33px;
+  height: 3px;
+  border-radius: 26px;
+  background-color: var(--main-color, #0063a9);
+}

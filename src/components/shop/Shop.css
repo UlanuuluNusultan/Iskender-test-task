@@ -1,0 +1,41 @@
+.big-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.adress {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 50px 0 18px 0;
+}
+.adress-card {
+  width: 380px;
+  height: 179px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 15px;
+}
+.cap {
+  display: flex;
+  border-bottom: 2px solid #e3e3e3;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 15px;
+}
+.location {
+  margin: 21px 0;
+  display: flex;
+  align-items: start;
+}
+.phone {
+  display: flex;
+  justify-content: space-between;
+}
+.iscender {
+  display: flex;
+}
+.icon {
+  margin-right: 20px;
+}
